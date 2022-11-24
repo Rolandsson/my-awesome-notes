@@ -10,7 +10,7 @@ public class Application {
     boolean isDone = false;
 
     while(!isDone) {
-      System.out.print("Add new noteeee: ");
+      System.out.print("Add new note: ");
       String note = scanner.nextLine();
 
       if(note.equals("quit")) {
