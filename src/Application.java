@@ -9,10 +9,15 @@ public class Application {
     Scanner scanner = new Scanner(System.in);
     boolean isDone = false;
 
-    while(isDone) {
+    while(!isDone) {
       System.out.print("Add new noteeee: ");
       String note = scanner.nextLine();
-      notes.add(note);
+
+      if(note.equals("quit")) {
+        isDone = true;
+      } else {
+        notes.add(note);
+      }
     }
 
   }
