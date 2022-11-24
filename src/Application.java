@@ -8,7 +8,7 @@ public class Application {
     List<String> notes = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Add new note: ");
+    System.out.print("Add new note: ");
     String note = scanner.nextLine();
 
     notes.add(note);
